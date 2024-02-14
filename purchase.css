@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@1&family=Lexend+Deca:wght@200&family=Lexend:wght@200;400;600&family=Nunito+Sans:opsz,wght@6..12,200&family=Roboto+Mono:ital,wght@1,100&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: auto;
+    background-color: #9955BB;
+}
+.content-box {
+    margin: auto;
+    display: flex;
+    background-color: white;
+    width: 430px;
+    height: 932px;
+}
+.pic-container {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(223, 218, 218);
+    margin: 10px 5px 10px 25px;
+}
+
+.pic-container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.profile-head {
+    display: flex;
+    margin-top: 2em;
+}
+.intro {
+    position: absolute;   
+    left: 19em;
+    margin-top: 1.5em;
+    padding: 10px 5px;
+    display: flex;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+a img {
+    display: flex;
+    position: relative;
+    margin: auto;
+    cursor: pointer;
+    left: 145px;
+}
+
+.profile-info {
+    position: absolute;
+    width: 383px;
+    height: 170px;
+    margin: 11em 5em 3em 1.5em ;
+    border: none;
+    border-radius: 10px;
+    background: #9955BB;
+}
+.profile-info #circle1 {
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 30px;
+}
+.profile-info #circle2 {
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 16px;
+}
+.profile-info-content {
+    display: block;
+    position: relative;
+    color: white;
+}
+
+.profile-info-content .wallet {
+    display: flex;
+    margin: 8px 13px;
+    position: relative;
+    color: white;
+}
+
+.profile-info-content .wallet svg {
+    margin-top: 20px;
+    color: white;
+}
+.profile-info-content .wallet #wallet {
+    margin-right: 5px;
+    padding-right: 5px;
+}
+.icon-container {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+}
+
+.profile-info-content .wallet #eye-slash {
+    padding-top: 20px;
+    padding-left: 8px;
+    display: inline-block;
+            cursor: pointer;
+            font-size: 15px;
+            color: white;
+}
+.profile-info-content .wallet #eye {
+    padding-top: 20px;
+    padding-left: 8px;
+    cursor: pointer;
+    display: none;
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+}
+.profile-info-content .wallet p {
+    font-weight: 300;
+    font-size: 17px;
+    margin-top: 15px;
+}
+.profile-info-content .balance {
+    font-weight: bold;
+    font-size: 27px;
+    letter-spacing: 15px;
+    margin: 20px 13px 0px 13px;
+}
+
+.profile-info-content a {
+    text-decoration: none;
+}
+.profile-info-content .add-cash {
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    margin: 15px 13px;
+    border-radius: 30px;
+    display: flex;
+}
+.profile-info-content .add-cash p {
+    color: blueviolet;
+    font-size: 15px;
+    display: flex;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+.profile-info-content .add-cash p a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.section-main {
+    display: block;
+    flex-direction: column;
+    position: absolute;
+}
+.section-main h2 {
+    position: absolute;
+    font-weight: bold;
+    top: 16em;
+    left: 25px;
+    display: flex;
+}
+
+.content-box .main-service {
+    position: absolute;
+    min-width: 100%; /* Adjust width as needed */
+    height: 120px; /* Adjust height as needed */
+    background-image: url('images/Rectangle 5.png'); /* Specify the path to your image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    top: 28em;
+    left: 16px;
+    display: flex;
+}
+
+.content-box .main-service .main-content {
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    display: flex;
+}
+.content-box .main-service a{ 
+    z-index: 100;  
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.content-box .main-service a:nth-of-type(3) {
+  
+}
+.content-box .main-service a:nth-of-type(1) {
+  
+    left: 0px;
+}
+
+
+.other-services {
+    width: 100%; /* Adjust width as needed */
+    height: 180px; /* Adjust height as needed */
+    background-image: url('images/Rectangle 5.png'); /* Specify the path to your image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    top: 32em;   
+    left: 16px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+
+.refer {
+    display: flex;
+    position: relative;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding:15px 10px;
+}
+.refer .head {
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.refer .head span{
+    font-size: 13px;
+    padding-top: 10px;
+}
+.refer #person-add {
+    font-size: 40px;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+.refer-get-container {
+    position: absolute;
+    margin: 55em 3em 3em 2em;
+    background-color: rgb(249, 236, 253);
+    width: 29%;
+    height: 155px;
+    box-sizing: border-box;
+    border-top: none;
+    border-left: none;
+    border-right: 1px solid blueviolet;
+    border-bottom: 1px solid blueviolet;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 20px;
+    
+}
+
+footer{
+    margin-top: 72em; /* Push the footer to the bottom */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    box-shadow:
+  -8.8px -13.1px 41.8px -4px rgba(0, 0, 0, 0.09),
+  -12.3px -18.1px 58.7px -4px rgba(0, 0, 0, 0.087),
+  39.7px 58.8px 70.3px -4px rgba(0, 0, 0, 0.082),
+  182.4px 269.8px 77.7px -4px rgba(0, 0, 0, 0.069),
+  219.2px 324.2px 80.2px -4px rgba(0, 0, 0, 0.02),
+  244px 361px 61px -4px #00000002
+;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 33%;
+}
+footer .bottom {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    justify-content: center;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+footer .bottom a, footer .bottom p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+}
+footer .bottom a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.active {
+    color: blueviolet;
+}
+footer .bottom p {
+    font-size: 16px;
+    margin-top: 8px;
+}
