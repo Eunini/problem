@@ -165,7 +165,8 @@ a #img {
 .section-main {
     display: block;
     flex-direction: column;
-    position: absolute;
+    width: 370px;
+    margin: 2px auto;
 }
 .section-main h2 {
     position: relative;
