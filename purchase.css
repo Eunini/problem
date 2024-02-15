@@ -39,16 +39,15 @@ body {
     margin-top: 2em;
 }
 .intro {
-    position: absolute;   
-    left: 19em;
-    margin-top: 1.5em;
+    position: relative; 
+    top: 30px;  
     padding: 10px 5px;
     display: flex;
     font-size: 22px;
     font-weight: bolder;
 }
 
-a img {
+a #img {
     display: flex;
     position: relative;
     margin: auto;
@@ -162,7 +161,7 @@ a img {
     position: absolute;
 }
 .section-main h2 {
-    position: absolute;
+    position: relative;
     font-weight: bold;
     top: 16em;
     left: 25px;
@@ -170,8 +169,8 @@ a img {
 }
 
 .content-box .main-service {
-    position: absolute;
-    min-width: 100%; /* Adjust width as needed */
+    position: relative;
+    width: 100%; /* Adjust width as needed */
     height: 120px; /* Adjust height as needed */
     background-image: url('images/Rectangle 5.png'); /* Specify the path to your image */
     background-size: cover; /* Cover the entire background */
@@ -186,38 +185,40 @@ a img {
 
 .content-box .main-service .main-content {
     justify-content: space-between;
-    align-items: center;
-    margin: auto;
     display: flex;
 }
 .content-box .main-service a{ 
-    z-index: 100;  
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-}
-.content-box .main-service a:nth-of-type(3) {
-  
-}
-.content-box .main-service a:nth-of-type(1) {
-  
-    left: 0px;
+    padding: 10px;
 }
 
-
-.other-services {
-    width: 100%; /* Adjust width as needed */
-    height: 180px; /* Adjust height as needed */
-    background-image: url('images/Rectangle 5.png'); /* Specify the path to your image */
+.other-services-container {
+    display: flex;
+    position: relative;
+    width: 100%; 
+    height: 180px;
+    background-image: url('images/Rectangle 5.png'); 
     background-size: cover; /* Cover the entire background */
     background-position: center; /* Center the background image */
-    top: 32em;   
-    left: 16px;
+    justify-content: space-between;
+    top: 40em;   
     border-radius: 10px;
-    position: absolute;
 }
+.other-services-container p {
+    position: relative;
+    line-height: 15px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.other-services-container .line {
+    position: relative;
+    width: 344px;
+    height: 3px;
+    top: 30px;
+    left: 38px;
+    background-color: #9955BB;
 
-
+}
 .refer {
     display: flex;
     position: relative;
